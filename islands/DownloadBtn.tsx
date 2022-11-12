@@ -16,7 +16,7 @@ const DownloadBtn = () => {
   }, []);
   return (
     <a href={href} class={tw`rounded bg-white px-2 py-1 text-sx`}>
-      <span class={tw`text-gradient focus:outline-none`}>下载APK文件</span>
+      <span class={tw`text-gradient focus:outline-none`}>下载APK测试</span>
     </a>
   );
 };
