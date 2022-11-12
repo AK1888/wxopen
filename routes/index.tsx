@@ -12,6 +12,7 @@ const github = apply`
 fixed top-5 left-5 decoration-none text-white 
 `;
 
+/** 
 const GithubLab = () => (
   <a class={tw(github)} href="https://github.com/3lang3/wxopen">
     <svg
@@ -23,7 +24,7 @@ const GithubLab = () => (
     </svg>
   </a>
 );
-
+*/
 const PageHeader = () => (
   <header class={tw`text-center`}>
     <h1 class={tw`text-white text-3xl mb-10`}>
