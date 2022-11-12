@@ -1,13 +1,3 @@
-## 🍿 WXOPEN 微信跳转
-
-- ✨ 支持微信内跳转外部浏览器
-- ✨ 支持微信内下载APP 
-- ✨ 支持微信内打开任意已安装APP
-
-> 目前只支持安卓，IOS将显示引导页
-
-<img src="./static/resource/wxopen_demo_qrcode.png"  style="width: 360px;" />
-
 ## 🔧 Development
 
 ```bash
