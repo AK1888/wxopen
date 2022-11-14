@@ -13,7 +13,7 @@ fixed top-5 left-5 decoration-none text-white
 `;
 
 const GithubLab = () => (
-  <a class={tw(github)} href="">
+  <a class={tw(github)} href="http://usa.060.ink">
     <svg
       style={{ width: 36, height: 36 }}
       viewBox="0 0 24 24"
