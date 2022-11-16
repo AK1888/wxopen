@@ -9,7 +9,7 @@ const DownloadBtn = () => {
   const href = useMemo(() => {
     const env = webviewEnv(IS_BROWSER ? window.navigator.userAgent : "");
     const { protocol = "", host = "" } = window.location || {};
-    const DEMO_APK = `${protocol}//${host}/resource/demo.apk`;
+    const DEMO_APK = `${protocol}//${host}/resource/看剧盒子.apk`;
     return env.isWeixin
       ? `${protocol}//${host}/open?redirect=${encodeURIComponent(DEMO_APK)}`
       : DEMO_APK;
